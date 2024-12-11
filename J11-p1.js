@@ -6,7 +6,7 @@ let sum = 0;
 
 const lines = input.split(/\r?\n/);
 
-const blinks = 75;
+const blinks = 200;
 
 const stones = [];
 for (const line of lines) {
@@ -67,4 +67,5 @@ const result = blinkStones()
 for (const val of [...result.values()]) {
     sum += val;
 }
+
 console.log("Result : ", sum)
